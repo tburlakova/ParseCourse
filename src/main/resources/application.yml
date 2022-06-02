@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/pancake
+    password: password
+contract:
+  private-key: "000"
+  node-url: "https://data-seed-prebsc-1-s1.binance.org:8545/"
+  contract-address: "0x652031408F935A2468FC04F3d0bE2fF094760577"
